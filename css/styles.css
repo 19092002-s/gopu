@@ -1,0 +1,83 @@
+/*************************************TAG SELECTOR****************************************************/
+
+body
+{
+  background-color: #F8F7DE;
+}
+
+hr
+{
+
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 7px;
+  width: 11%;
+}
+h1
+{
+  font-size: 60px;
+  color:  #D63447;
+}
+h3
+{
+  color: #852747;
+
+}
+
+/*
+here in img tag if i apply the green color for any one image it will also affect the other all the images , because here in img tag there is a 3 links for dogs ,cats and elephant.*/
+
+/*pcydo class is when we click on something it will highlight.*/
+
+img:hover{
+  background-color: silver;
+}
+
+
+/*************************************CLASS SELECTOR****************************************************/
+
+/*  CLASS = it is use multiple time.one or two or multiple objects name can be the same class name.*/
+/* if we want the different backgroundcolor or different styles of 3 of them then we have to use the "class" attributes next to the img tag in index.html file.
+.*/
+.cat{
+  background-color: green;
+  height: 200px;
+}
+
+.dog{
+  background-color: red;
+  height: 200px;
+
+}
+
+.elephant{
+  background-color: black;
+  height: 200px;
+}
+
+.circuler{
+  border-radius: 200px;
+}
+
+.dog{
+  position: relative;
+  left: 400px;
+}
+
+/* here if i use position:relative , then the picture or content will be move that perticuler pixels from bottom or top or right or left & in that place there will be a space.*/
+
+/*if i use position absolute then, the picture will moved from that perticuler pixels and the belows content take place to the above content.and there will be a no space.*/
+
+
+/*when we use class and id then it is a first preferences for the output.it will ignore the other simple tags effects.*/
+/*************************************ID SELECTOR****************************************************/
+
+/* HEADING = it is use only once. its like a keyword.it must be unique.we cannot give the same name for different tags.*/
+
+
+#heading{
+  color: orange;
+}
+
+/*HTML ELEMENT HAVE MORE THEN ONE CLASS BUT ONLY HAVE ONE ID.*/
